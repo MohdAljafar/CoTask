@@ -1,0 +1,27 @@
+# Frontend
+client/node_modules/
+
+# Backend
+server/node_modules/
+
+# Environment
+client/.env
+server/.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+client/dist/
+server/dist/
+
+# Coverage
+coverage/
