@@ -139,11 +139,11 @@ CLIENT_URL=
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](/screenshots/dashboard.jpg)
 
 ### Workspace
 
-![Workspace](screenshots/workspace.png)
+![Workspace](/screenshots/workspace.jpg)
 
 ## 🔄 Workflow
 
