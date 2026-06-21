@@ -12,7 +12,7 @@ function Dashboard() {
 
   const navigate = useNavigate();
 
-  const { logout } = useAuth();
+  const { user, logout } = useAuth();
 
   const fetchWorkspaces = async () => {
     try {
@@ -48,9 +48,29 @@ function Dashboard() {
         padding: "20px",
       }}
     >
-      <h1>Collaborative Todo</h1>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <h1>Collaborative Todo</h1>
 
-      <button onClick={logout}>Logout</button>
+        <div
+          style={{
+            display: "flex",
+            gap: "10px",
+            alignItems: "center",
+          }}
+        >
+          <span>
+            Welcome, <strong>{user?.name}</strong>
+          </span>
+
+          <button onClick={logout}>Logout</button>
+        </div>
+      </div>
 
       <hr />
 
